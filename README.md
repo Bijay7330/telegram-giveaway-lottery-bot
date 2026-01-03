@@ -143,7 +143,7 @@
 | 📢 官方频道 | [@MyLuckyStar6](https://t.me/MyLuckyStar6) |
 | 💬 交流群组 | [@LuckyStar9988](https://t.me/LuckyStar9988) |
 | 🤖 机器人 | [@MyLuckyStar8_Bot](https://t.me/MyLuckyStar8_Bot) |
-| 📧 商务合作 | https://t.me/paocai6 |
+| 📧 商务合作 | [@paocai6](https://t.me/paocai6) |
 
 ---
 
